@@ -24,7 +24,7 @@
 }
 
 body {
-    background-image: url(./assets/fond_jaune.png);
+    background-image: url("./assets/fond_jaune.png");
     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
     color: #181818;
 }
@@ -40,7 +40,7 @@ section h1, footer h1, nav a {
 }
 
 header {
-    background: url(./assets/separateur.png) repeat-x bottom;
+    background: url("./assets/separateur.png") repeat-x bottom;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -102,7 +102,7 @@ nav a:hover
 }
 
 #banniere_image {
-    background: url(./assets/imagebanniere.jpg) no-repeat; 
+    background: url("./assets/imagebanniere.jpg") no-repeat; 
     height: 300px;
     margin-top: 15px;
     border-radius: 5px;
@@ -133,7 +133,7 @@ nav a:hover
     position: absolute;
     right: 5px;
     bottom: 5px;
-    background: url(./assets/fond_degraderouge.png) repeat-x;
+    background: url("./assets/fond_degraderouge.png") repeat-x;
     border: 1px solid #760001;
     border-radius: 5px;
     font-size: 1.2em;
